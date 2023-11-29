@@ -1,0 +1,169 @@
+
+ body{
+    margin: 0 ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+
+}
+
+
+a{
+    color: #000;
+
+}
+
+.menu  a{
+    text-decoration: none;
+}
+
+
+
+input, select{
+    width: 100%;
+    height: 35px;
+    margin-bottom: 5px;
+    padding: 7px;
+    box-sizing: border-box;
+}
+
+form{
+    
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+form > h3{
+    text-align: center;
+    background-color: var(--bg-color);
+}
+
+
+
+a:hover{
+    color: #BC8F8F;
+}
+
+:root{
+    --bg-color: #87CEEB;
+    --bg-color-table-1: #ADD8E6;
+    --bg-color-table-2: #E0FFFF;
+
+
+}
+
+.head{
+    background-color: var(--bg-color);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 4em;
+    align-items: center;
+    margin-bottom: 1em;
+    
+}
+
+.menu > ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 350px;
+
+}
+
+
+
+.link-animal{
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(231, 175, 175);
+    border-radius: 20%;
+}
+
+
+
+.animais-table, .donos-table {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    border-collapse: collapse;
+    margin: 0 auto;
+    width:75%;
+    text-align: center;
+   
+ 
+   
+}
+
+
+.animais-table td, .animais-table th, .donos-table td, .donos-table th{
+    padding: 1em;
+   
+}
+
+.animais-table tr:nth-child(even), .donos-table tr:nth-child(even){
+    background-color: var(--bg-color-table-1);
+
+}
+
+.animais-table tr:nth-child(odd), .donos-table tr:nth-child(odd){
+    background-color: var(--bg-color-table-2);
+
+}
+
+
+.dono-profile{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.dono-form-container, .animal-form-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 320px;
+}
+
+
+.dono-form-cadastrar, .animal-form, .animal-form-container {
+    margin: 0 auto;
+    width: 320px;
+}
+
+
+.dono-animal-area{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.img-width{
+    border-radius: 100%;
+    width: 250px;
+    height: 250px;
+    background-size: contain;
+    
+}
+
+.dono-img{
+    background-image: url("https://cdn-icons-png.flaticon.com/512/1256/1256650.png?w=740");
+}
+
+.animal-img{
+    background-image: url("https://img.freepik.com/vetores-gratis/colecao-bichinhos-fofos_1196-45.jpg?w=740");
+    
+}
+
+
+
+
+
+
+
+
+
+
+

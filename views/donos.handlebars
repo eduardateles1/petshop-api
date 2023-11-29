@@ -1,0 +1,17 @@
+
+<table class="donos-table">
+    <tr>
+        <th>NOME</th>
+        <th>TELEFONE</th>
+    </tr>
+    {{#each donos}}
+    <tr>
+        <td> <a href="dono/buscar/{{this.proprietario_id}}"/>{{this.nome}}</td>
+        <td>{{this.telefone}}</td>
+    </tr>
+    {{/each}}
+</table>
+
+
+ 
+
