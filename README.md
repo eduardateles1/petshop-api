@@ -9,7 +9,6 @@ API RESTful para sistema de cadastro de pet shop.
 ```bash
 npm install
 ```
-
 2. Navegue até a pasta do projeto
    ```bash
    cd api-petshop
